@@ -5,4 +5,6 @@ class User < ActiveRecord::Base
   validates :email, presence: true, format: { with: EMAIL_REGEX }
 
   has_secure_password
+
+  has_many :comments
 end

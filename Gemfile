@@ -28,12 +28,13 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
+gem  'faker'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
 gem 'bootstrap-sass', '~> 3.3.6'
 
-gem 'tzinfo-data'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 group :development, :test do

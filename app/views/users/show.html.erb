@@ -1,0 +1,10 @@
+<h1> <%= @user.name %></h1>
+<p>
+  <%= @user.email %>
+</p>
+<ul class="list-group">
+  <% @user.comments.each do |c| %>
+      <li class="list-group-item"><%= c.title %></li>
+      <br>
+  <% end %>
+</ul>
